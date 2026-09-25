@@ -1,0 +1,91 @@
+
+body {
+    background: linear-gradient(135deg, #f1f8f4, #ffffff);
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    min-height: 70px;
+}
+
+.navbar-brand {
+    font-size: 1.2rem;
+}
+
+.nav-link {
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #20c997 !important;
+}
+
+
+/* Card principal */
+.card {
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Título */
+h1 {
+    color: #198754;
+}
+
+
+/* Campos */
+.form-control {
+    height: 50px;
+}
+
+.input-group-text {
+    background-color: #198754;
+    color: white;
+    border: none;
+}
+
+
+/* Botão */
+.btn-success {
+    background-color: #198754;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-success:hover {
+    background-color: #146c43;
+    transform: scale(1.02);
+}
+
+
+/* Resultado */
+.alert {
+    border-radius: 12px;
+}
+
+
+/* Seção Sobre */
+#sobre {
+    min-height: 200px;
+}
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+
+    .navbar-brand {
+        font-size: 1rem;
+    }
+
+    .card {
+        margin: 15px;
+    }
+
+}
